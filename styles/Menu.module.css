@@ -1,0 +1,27 @@
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #fff;
+  font-weight: 500;
+  box-shadow: 0 0 10px rgb(0, 0, 0, .4);
+}
+
+.menu > div {
+  display: flex;
+}
+
+.link {
+  border: none;
+  border-radius: 5%;
+  display: block;
+  padding: 20px;
+  transition: all .5s ease;
+}
+
+.link:hover {
+  background-color: #1813a6;
+  color: #fff;
+  cursor: pointer;
+}
